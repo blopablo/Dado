@@ -1,13 +1,5 @@
 # - - - - D A D O S - - - - #
 
-
-# - - - - l i s t a s - - - - #
-
-""" D4 = [1, 2 ,3 , 4]
-D6 = [1, 2, 3, 4, 5, 6]
-D10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-D20 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] """
-
 import tkinter as tk
 from random import randint
 
@@ -18,14 +10,6 @@ class Dado:
         self.ventana.config(background="black")
         self.ventana.geometry("400x500")
         self.ventana.resizable(False, False)
-
-        # Agrega una imagen de fondo
-        self.background_image = tk.PhotoImage(file="C:\Users\Usuario\Desktop\MΣntºriΔS\ejercicios_eze\dado\img\dragondado.jpg")
-        self.background_label = tk.Label(self.ventana, image=self.background_image)
-        self.background_label.place(x=0, y=0, relwidth=1, relheight=1)
-        self.background_label.image = self.background_image
-
-
     
 
         self.etiqueta = tk.Label(self.ventana, text="ReSuLtAdO", font=("Arial", 30), bg= "black", fg="yellow")
