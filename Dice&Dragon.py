@@ -9,7 +9,7 @@ class Dado:
         pygame.mixer.music.load("sound/dragon_breath.mp3")
         pygame.mixer.music.play(1)  # - - - - Elementos para agregar musica o sonidos mp3 o wav
 
-        self.sonido_click = pygame.mixer.Sound("sound/clic/dragon_roar.mp3",)
+        self.sonido_click = pygame.mixer.Sound("sound/clic/D4.mp3",)
         self.sonido_click1 = pygame.mixer.Sound("sound/clic/D6.mp3",)
         self.sonido_click2 = pygame.mixer.Sound("sound/clic/D10.mp3",)
         self.sonido_click3 = pygame.mixer.Sound("sound/clic/D20.mp3",)
